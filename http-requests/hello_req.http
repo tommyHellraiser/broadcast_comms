@@ -1,0 +1,8 @@
+### Send a request that's basically an alive check
+GET http://127.0.0.1:8069/general/hello
+
+### Execute hello message by broadcast channel
+GET http://127.0.0.1:8069/general/exec
+
+### Stop the http server
+GET http://127.0.0.1:8069/general/stop
